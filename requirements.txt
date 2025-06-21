@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-community
+matplotlib
+spacy
+networkx
+faiss-cpu
+docx2txt
+tiktoken
+beautifulsoup4
+html5lib
+pypdf
