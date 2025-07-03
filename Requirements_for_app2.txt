@@ -1,0 +1,47 @@
+# === Web Scraping ===
+requests
+beautifulsoup4
+
+# === Streamlit App ===
+streamlit
+
+# === Document Parsing ===
+langchain
+langchain-community
+docx2txt
+PyMuPDF  # or use pdfminer.six as an alternative for PDF parsing
+
+# === Vector Storage and Retrieval ===
+faiss-cpu  # or faiss-gpu if using GPU
+
+# === Embeddings and LLM Integration ===
+sentence-transformers
+huggingface-hub
+langchain-groq
+
+# === NLP and Knowledge Graph ===
+spacy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+
+# === Evaluation and Similarity Scoring ===
+scikit-learn
+
+# === Visualization ===
+matplotlib
+networkx
+
+# === Data Handling ===
+pandas
+
+# === Optional Utility ===
+python-dotenv  # for handling .env files and secrets
+
+
+or simply paste this into cmd
+{
+  pip install requests beautifulsoup4 streamlit spacy matplotlib pandas networkx \
+langchain langchain-community langchain-groq sentence-transformers scikit-learn \
+huggingface-hub faiss-cpu docx2txt
+python -m spacy download en_core_web_sm
+
+}
